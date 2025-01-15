@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eu 
 
 # Überprüfen, ob `gh` installiert ist
 if ! command -v gh &> /dev/null; then
