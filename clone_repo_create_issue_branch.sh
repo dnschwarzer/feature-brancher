@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eu 
+set -euo pipefail
 
 # Überprüfen, ob `gh` installiert ist
 if ! command -v gh &> /dev/null; then
