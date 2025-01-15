@@ -109,3 +109,6 @@ echo "Feature-Branch $BRANCH_NAME wurde erfolgreich erstellt und gepusht."
 
 # Sicherstellen, dass der aktuelle Branch der erstellte Feature-Branch ist
 git checkout "$BRANCH_NAME"
+
+# Open IDE
+#code ${TARGET_DIR}/${REPO_NAME}
